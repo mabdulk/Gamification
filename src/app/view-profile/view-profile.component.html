@@ -1,20 +1,25 @@
 <div>
   <h2>Profile Page</h2>
-  <hr>
-  <form class="profile-info">
-      <mat-form-fied class="first-name">
+
+  <div>
+  <img id="image" [src]="'https://www.w3schools.com/howto/img_avatar.png'"> <br/>
+</div>
+
+
+  <form>
+      <mat-form-field  class="input-display">
           <input matInput placeholder="First Name" value="John">
-        </mat-form-fied>
-    
-        <mat-form-field class="last-name">
+        </mat-form-field>
+      
+        <mat-form-field  class="input-display">
           <input matInput placeholder="Last Name" value="Smith">
         </mat-form-field>
     
-        <mat-form-field class="username">
+        <mat-form-field class="input-display">
           <input matInput value="johnSmith@example.com">
         </mat-form-field>
     
-        <mat-form-field class="phone-number">
+        <mat-form-field class="input-display">
           <input matInput placeholder="Phone Number" value="(313)-123-4567">
         </mat-form-field>
   </form>

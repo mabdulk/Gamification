@@ -1,0 +1,14 @@
+.input-display{
+    display: block;
+    max-width: 50%;
+    padding-left: 2%;
+
+}
+
+#image{
+    max-width: 10%;
+    max-height: 10%;
+    display: inline;
+    float: right;
+    padding-right: 15%;
+}
