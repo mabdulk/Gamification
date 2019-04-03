@@ -1,0 +1,21 @@
+.text-formatting{
+    padding-left: 2%;
+}
+
+#table-style{
+    min-width: -webkit-fill-available;
+}
+
+.table-col-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+#upward-arrow{
+    color: green;
+}
+
+#downward-arrow{
+    color: red;
+}
+
