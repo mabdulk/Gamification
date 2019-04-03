@@ -7,7 +7,7 @@ import { CustomMaterialModule } from './core/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
-import { MatTableModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MatTableModule, MatFormFieldModule, MatInputModule, MatCardModule } from '@angular/material';
 import { TeamDetailComponent } from './team-detail/team-detail.component';
 
 @NgModule({
@@ -25,7 +25,8 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
     CustomMaterialModule,
     MatTableModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   exports: [
     MatFormFieldModule

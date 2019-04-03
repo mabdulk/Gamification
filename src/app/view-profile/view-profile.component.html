@@ -1,10 +1,12 @@
 <div>
-  <h2>Profile Page</h2>
-
-  <div>
-  <img id="image" [src]="'https://www.w3schools.com/howto/img_avatar.png'"> <br/>
-</div>
-
+  <h2 class="text-formatting">Profile Page</h2>
+  <hr>
+  <mat-card class="image" >
+  <img id="profile-img" [src]="'https://www.w3schools.com/howto/img_avatar.png'"> 
+  <mat-card-actions>
+      <button  mat-button>Upload Image</button>
+    </mat-card-actions>
+ </mat-card>
 
   <form>
       <mat-form-field  class="input-display">

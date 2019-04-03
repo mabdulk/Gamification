@@ -5,10 +5,18 @@
 
 }
 
-#image{
+.image{
     max-width: 10%;
     max-height: 10%;
-    display: inline;
     float: right;
-    padding-right: 15%;
+    text-align: center;
+    margin-right: 15%;
+}
+
+#profile-img{
+    width: 100%;
+}
+
+.text-formatting{
+    padding-left: 2%;
 }

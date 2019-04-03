@@ -8,9 +8,9 @@ export interface Rank {
 }
 
 const ELEMENT_DATA: Rank[] = [
-  {teamName: 'team 1', currentRank : 1, previousRank : 2},
-  {teamName: 'team 3', currentRank : 2, previousRank : 3},
-  {teamName: 'team 2', currentRank : 3, previousRank : 2},
+  {teamName: 'first team', currentRank : 1, previousRank : 2},
+  {teamName: 'third team', currentRank : 2, previousRank : 3},
+  {teamName: 'second team', currentRank : 3, previousRank : 2},
   
 ];
 
