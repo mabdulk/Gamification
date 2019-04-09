@@ -1,0 +1,24 @@
+.text-formatting{
+    padding-left: 2%;
+}
+
+#table-style{
+    min-width: 15%;
+    text-align: center;
+    margin-left: 1%;
+    display: -webkit-inline-box;
+}
+
+.table-col-header{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#img{
+    display: inline;
+    display: -webkit-inline-box;
+    float: right;
+    margin-right: 17%;
+}
+
