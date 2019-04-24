@@ -11,6 +11,7 @@ const ELEMENT_DATA: Rank[] = [
   {teamName: 'first team', currentRank : 1, previousRank : 2},
   {teamName: 'third team', currentRank : 2, previousRank : 3},
   {teamName: 'second team', currentRank : 3, previousRank : 2},
+  {teamName: 'Truck - number one', currentRank : 9, previousRank : 3},
   
 ];
 

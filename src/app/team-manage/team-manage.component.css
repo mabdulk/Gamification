@@ -1,0 +1,53 @@
+.text-formatting{
+    padding-left: 2%;
+}
+
+#table-style{
+    min-width: -webkit-fill-available;
+}
+
+.table-col-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+i.icon-green {
+    color: green;
+}
+
+i.icon-red {
+    color: red;
+}
+
+
+#edit-button:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+    color:black;
+  }
+#edit-button{
+    cursor: pointer;
+    text-align: center; 
+    color:#a21a30;
+  }
+
+  #save-button:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+    color:black;
+  }
+#save-button{
+    cursor: pointer;
+    text-align: center; 
+    color:green;
+  }
+
+  #cancel-button:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+    color:black;
+  }
+#cancel-button{
+    cursor: pointer;
+    text-align: center; 
+    color:#a21a30;
+    padding-left: 4%;
+  }

@@ -9,6 +9,8 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 import { MatTableModule, MatFormFieldModule, MatInputModule, MatCardModule } from '@angular/material';
 import { TeamDetailComponent } from './team-detail/team-detail.component';
+import { TeamManageComponent } from './team-manage/team-manage.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
     NavigationComponent,
     MainPageComponent,
     ViewProfileComponent,
-    TeamDetailComponent
+    TeamDetailComponent,
+    TeamManageComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,9 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
     MatTableModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    FormsModule
   ],
   exports: [
     MatFormFieldModule
