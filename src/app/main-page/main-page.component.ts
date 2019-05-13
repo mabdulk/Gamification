@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material';
+import { MainPageService } from './main-page.service';
 
 export interface Rank {
   teamName: string;
@@ -26,9 +27,15 @@ export class MainPageComponent implements OnInit {
   displayedColumns: string[] = ['teamName', 'currentRank', 'symbol'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
-  constructor() { }
+  constructor(private mainPageService: MainPageService) { }
 
   ngOnInit() {
+    this.getTest();
+  }
+
+  getTest()
+  {
+    this.mainPageService.getTest();
   }
 
   applyFilter(filterValue: string) {
